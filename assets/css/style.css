@@ -148,20 +148,20 @@ header {
 /* start contact section */
 .contact {
     margin-bottom: 136px;
-    .container {
+    .content {
         padding: 100px 75px !important;
         border-radius: 20px;
-        p {
-            max-width: 360px;
-            margin-top: 32px !important;
-            line-height: 27.5px;
-        }
-        button {
-            width: 167px;
-            height: 48px;
-            background-color: #8EADD5;
-            border-radius: 8px;
-        }
+    }
+    p {
+        max-width: 360px;
+        margin-top: 32px !important;
+        line-height: 27.5px;
+    }
+    button {
+        width: 167px;
+        height: 48px;
+        background-color: #8EADD5;
+        border-radius: 8px;
     }
 }
 /* end contact section */
