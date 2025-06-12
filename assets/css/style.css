@@ -11,8 +11,6 @@
 
 /* start global classes */
 .whiteSpacing {
-    /* padding-left: 188px;
-    padding-right: 188px; */
     padding-left: 40px !important;
     padding-right: 40px !important;
 }
@@ -27,6 +25,10 @@
 
 .bgColor {
     background-color: var(--mySecondaryColor);
+}
+
+.marginBottom {
+    margin-bottom: 136px;
 }
 
 .title {
@@ -87,24 +89,18 @@ header {
 }
 /* start companies */
 .companies {
-    margin-bottom: 136px;
     p {
         color: #667085;
     }
     div {
-        /* max-width: 63.5416vw; */
         max-width: 915px;
     }
 }
 /* end companies */
 /* start branding */
 .branding {
-    margin-bottom: 136px;
     div {
         img {
-            max-width: 100%;
-        }
-        .arrow {
             max-width: 100%;
         }
     }
@@ -112,7 +108,6 @@ header {
 /* end branding */
 /* start custome */
 .custome {
-    margin-bottom: 136px;
     img {
         max-width: 100%;
     }
@@ -121,7 +116,6 @@ header {
 
 /* start testimonial section */
 .testimonial {
-    margin-bottom: 136px;
     p {
         width: fit-content;
     }
@@ -147,7 +141,6 @@ header {
 /* end testimonial section */
 /* start contact section */
 .contact {
-    margin-bottom: 136px;
     .content {
         padding: 100px 75px !important;
         border-radius: 20px;
@@ -203,6 +196,7 @@ footer {
         padding-left: 24px !important;
         padding-right: 24px !important;
     }
+    
     .title {
         font-size: 32px;
     }
@@ -225,10 +219,10 @@ footer {
             max-width: 378px;
         }
         h1 {
-            font-size: 40px;
+            font-size: 40px !important;
         }
         p {
-            font-size: 16px;
+            font-size: 16px !important;
         }
     }
     /* start companies */
