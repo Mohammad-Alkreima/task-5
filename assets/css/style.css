@@ -180,7 +180,12 @@ footer {
                 width: fit-content;
             }
             .logo {
-                max-width: 189.29px;
+                .mainJob {
+                    margin-bottom: 40px;
+                }
+                .desc {
+                    max-width: 189.29px;
+                }
             }
             ul {
                 list-style: none;
@@ -276,7 +281,12 @@ footer {
             padding-bottom: 92px !important;
             gap: 72px;
             p:first-child {
-                margin-bottom: 34px;
+                margin-bottom: 32px;
+            }
+            .logo {
+                .mainJob {
+                    margin-bottom: 34px;
+                }
             }
         }
     }
